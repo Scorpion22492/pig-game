@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>DEMO pig Game</title>
+</head>
+<body>
+   <main class="main">
+       <header class="header">
+           <button class="btn new"><i class="">🔄 NEW GAME</button>
+       </header>
+       <section class="player-container">
+         
+           <section class="player player-0 player-active">
+               <div class="score-container">
+                   <h2>PLAYER 1</h2>
+                   <p class="score" id="score-0">0</p>
+               </div>
+               <div class="current-container">
+                   <p class="current-label">CURRENT</p>
+                   <p class="current-score" id="current-0">0</p>
+               </div>
+           </section>
+           <section class="player player-1 ">
+               <div class="score-container">
+                   <h2>PLAYER 2</h2>
+                   <p class="score" id="score-1">0</p>
+               </div>
+               <div class="current-container">
+                   <p class="current-label">CURRENT</p>
+                   <p class="current-score" id="current-1">0</p>
+               </div>
+           </section>
+       </section>
+       <div class="dice-container">
+           <img src="dice-5.png" alt="Playing dice" class="dice">
+       </div>
+       <footer class="comands-container">
+           <button class=" btn btn-roll"><i></i>🎲 ROLL DICE</button>
+           <button class="btn btn-hold">🎮 HOLD</button>
+       </footer>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
